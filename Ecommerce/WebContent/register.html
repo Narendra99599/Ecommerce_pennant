@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Register here</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="contact-width-section" id="contactme">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="nav-items">
+                    <h1 class="nav-heading">Shopping Cart</h1>
+                    <a href="./cart.html">
+                        <img src="cartimage.jpg" alt="">
+                        <span class="number">0</span>
+                    </a>
+                </div>
+            </div>
+            <h1 class="contactus-heading">
+                Register here
+            </h1>
+            <div class="contactus-form-container">
+                <form class="form" action="RegisterServlet" id="form" method = "post">
+                    <div class="formfield-container">
+                        <input class="formfield" type="text" name="name" id="name" placeholder="Enter your name"
+                            required />
+
+                        <input class="formfield" type="email" name="email" id="email" required
+                            placeholder="Enter your email address" />
+
+                        <input class="formfield" type="text" name="phone" id="subject" required
+                            placeholder="Enter your mobile" />
+
+                        <input class="formfield" type="password" name="password" id="subject" required
+                            placeholder="Enter your password" />
+
+                        <textarea name="address" id="message" cols="30" rows="5" class="formfield formfield-textarea"
+                            required placeholder="Enter your Address"></textarea>
+
+                    </div>
+                    <button class="btn submit-btn" style="border: none;">
+                        Register <i class="submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

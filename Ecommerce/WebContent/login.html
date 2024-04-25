@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Register here</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="contact-width-section" id="contactme">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="nav-items">
+                    <h1 class="nav-heading">Shopping Cart</h1>
+                    <a href="./cart.html">
+                        <img src="cartimage.jpg" alt="">
+                        <span class="number">0</span>
+                    </a>
+                </div>
+            </div>
+            <h1 class="contactus-heading">
+                Login here
+            </h1>
+            <div class="contactus-form-container">
+                <form class="form" action="LoginServlet" id="form" method = "post">
+                    <div class="formfield-container">
+                        <input class="formfield" type="email" name="email" id="name" placeholder="Enter your email"
+                            required />
+
+                        <input class="formfield" type="password" name="password" id="email" required
+                            placeholder="Enter your password" />
+
+                    </div>
+                    <button class="btn submit-btn" style="border: none;">
+                        login <i class="submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
